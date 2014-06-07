@@ -1,0 +1,10 @@
+if application "iTerm" is running
+	tell application "iTerm"
+		set _current_session to current session of current terminal
+		tell _current_session
+			set background color to "blue"
+		end tell
+	end tell
+else
+	"iTerm is not running"
+end if 
