@@ -1,0 +1,1 @@
+set num_file to do shell script "ls -F ~/Pictures | grep -v / | wc -l"
